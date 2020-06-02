@@ -1,0 +1,16 @@
+.card {
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 20rem;
+  font-size: 2rem;
+}
+
+button {
+  border: 2px black solid !important;
+  border-radius: 5px !important;
+}
+
+button:hover {
+  background-color: black;
+  color: white !important;
+}

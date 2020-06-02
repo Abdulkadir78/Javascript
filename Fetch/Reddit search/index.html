@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readit</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card col-md-8 mx-auto mt-5 bg-light">
+            <div class="card-title text-center">
+                <i class="fab fa-reddit-alien fa-3x"></i>
+                <h1 class="font-weight-light d-inline ml-1">Readit</h1>
+                <h5 class="card-subtitle font-weight-light mt-1">The reddit search app</h5>
+            </div>
+            <div class="card-body">
+                <form id="search-form">
+                    <input type="text" class="form-control term" placeholder="Search..." required autofocus>
+                    <div class="input-group mt-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text">Sort by</label>
+                        </div>
+                        <select class="form-control sort">
+                            <option value="relevance">Relevance</option>
+                            <option value="new">Latest</option>
+                            <option value="top">Top</option>
+                        </select>
+                    </div>
+                    <div class="input-group mt-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text">Limit</label>
+                        </div>
+                        <select class="form-control limit">
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-sm btn-outline-dark mt-3 form-control">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container my-4  card-columns display-section"></div>
+
+    
+
+
+
+    <script src="main.js"></script>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/f7a60d49e4.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
