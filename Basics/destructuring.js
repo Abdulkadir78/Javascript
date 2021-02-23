@@ -8,6 +8,9 @@ let person = {
   },
 };
 
-let { firstName, lastName, address: { country, city } } = person;
-console.log(firstName, lastName, city, country);
-
+let {
+  firstName,
+  lastName,
+  address: { country, city },
+} = person;
+console.log(firstName, lastName, city, country); // John Smith Mumbai India

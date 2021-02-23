@@ -14,11 +14,11 @@ console.log(name.toUpperCase());
 
 console.log(name.toLowerCase());
 
-console.log(name.substring(0, 5));
+console.log(name.substring(0, 5)); // Abdul { does not include the last character }
 
-console.log(name.indexOf("k"));
+console.log(name.indexOf("k")); // 5
 
 let branches = "comps, mech, it, civil, elex";
-console.log(branches.split(", "));
+console.log(branches.split(", ")); // [ "comps", "mech", "it", "civil", "elex" ]
 
 // and many more

@@ -12,6 +12,6 @@ Person.prototype.printName = function () {
 
 let person1 = new Person("abdulkadir", "shekha", 19);
 person1.number = 9892;
-console.log(person1);
+console.log(person1); // object with firstName, lastName, age and number
 
 person1.printName();
